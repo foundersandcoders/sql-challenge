@@ -8,9 +8,8 @@ Make sure you have Git and Node (v18) installed.
 
 1. Clone this repo and `cd` into the directory
 1. Run `npm install` to install all the dependencies
-1. Run `npm run seed` to seed the database with the example data
 
-There's a bunch of data about various FAC cohorts in `seed.sql`. You'll need to read this to figure out exactly what tables you're working with.
+There's a bunch of data about various FAC cohorts in `seed.sql`. You'll need to read this to figure out exactly what tables you're working with. The DB will automatically be populated with this data before each test.
 
 Each challenge requires you to complete the corresponding statement in `model.js`. There are tests you can run to verify, e.g. `npm run test:1`.
 
