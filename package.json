@@ -7,6 +7,9 @@
     "test:4": "DB_FILE=test.sqlite node -r ./database/seed.js test/four.test.js",
     "test:5": "DB_FILE=test.sqlite node -r ./database/seed.js test/five.test.js"
   },
+  "volta": {
+    "node": "18.16.0"
+  },
   "dependencies": {
     "better-sqlite3": "^7.6.2"
   }
