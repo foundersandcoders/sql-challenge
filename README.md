@@ -6,7 +6,7 @@ Practice writing SQL queries with more complex logic. There's usually more than 
 
 Make sure you have Git and Node (v18) installed.
 
-1. Clone this repo and `cd` into the directory
+1. [Use this template](https://github.com/foundersandcoders/sql-challenge/generate), clone your copy, cd into it
 1. Run `npm install` to install all the dependencies
 
 There's a bunch of data about various FAC cohorts in `seed.sql`. You'll need to read this to figure out exactly what tables you're working with. The DB will automatically be populated with this data before each test.
